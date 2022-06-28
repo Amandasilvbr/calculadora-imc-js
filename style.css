@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@300&family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(to right, #00ffbc, #00e2e6, #00c0fe, #0098f7, #5e6bce);
+  }
+  
+  .container{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: white;
+   padding: 20px 0px 20px 0px;
+   text-align: center;
+   max-width: 300px;
+   max-height: 70vh;
+   border-radius: 10px;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   
+  }
+  
+  .title{
+    font-family: "poppins", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 10px;
+  }
+  
+  .input {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+  }
+
+  .input input {
+    width: 200px;
+    height: 20px;
+    text-align: center;
+    border-bottom: 1px solid rgb(136, 136, 136);
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+  }
+  
+  .input label {
+    font-family: "poppins",Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+  }
+  
+  button{
+    width: 100px;
+    height: 40px;
+    font-family: "poppins",Arial, Helvetica, sans-serif;
+    background: rgba(205, 205, 205, 0.608);
+    color: rgb(82, 82, 82);
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    margin: 20px;
+  }
+
+  button:hover{
+    background: rgba(160, 153, 153, 0.762);
+    color: rgb(246, 246, 246);
+    transition: 0.25s;
+  }
+  
+  #result{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 100px;
+    border-radius: 8px;
+    font-family: "Poppins",Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background: rgba(205, 205, 205, 0.608);
+    color: rgb(93, 93, 93);
+    user-select: none;
+  }
